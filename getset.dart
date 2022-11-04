@@ -29,7 +29,7 @@ void main() {
   Student stu = new Student();
   stu.firstname = "lotan";
   stu.lastname = "kilinda";
-  stu.age = -10;
+  stu.age = 20;
 
   print(stu.fullname);
   print(stu.age);
