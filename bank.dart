@@ -1,7 +1,17 @@
 class Bank {
-  int? _balance;
+  double? _balance;
+  double? _deposit;
+  double? _withdraw;
 
   int get balance => this._balance = balance;
 
-  void deposit(double deposit) {}
+  void depositCash(double deposit) {
+    this._deposit = deposit;
+  }
+
+  void withdrawCash(double withdraw) {
+    this._withdraw = withdraw;
+  }
+
+  void getBal() {}
 }
