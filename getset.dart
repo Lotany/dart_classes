@@ -17,7 +17,7 @@ class Student {
 
   //setter to set age
   set age(int age) {
-    if (this._Age < 0) {
+    if (age < 0) {
       throw new Exception("Age cant be less than 0");
     }
     this._Age = age;
@@ -25,4 +25,12 @@ class Student {
 }
 
 //main method
-void main() {}
+void main() {
+  Student stu = new Student();
+  stu.firstname = "lotan";
+  stu.lastname = "kilinda";
+  stu.age = -10;
+
+  print(stu.fullname);
+  print(stu.age);
+}
