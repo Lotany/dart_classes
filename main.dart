@@ -1,4 +1,4 @@
-main (){
-    int ableLotan = "hellow";
-    print(ableLotan);
+main() {
+  String ableLotan = "hellow";
+  print(ableLotan);
 }
